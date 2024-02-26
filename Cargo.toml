@@ -1,0 +1,13 @@
+[package]
+name = "aikit"
+version = "0.0.0"
+edition = "2021"
+license = "MIT"
+homepage = "https://pwa.ir"
+repository = "https://github.com/xclud/rust-aikit"
+documentation = "https://docs.rs/crate/aikit"
+description = "Set of algorithms and utilities for common AI and ML problems."
+categories = ["algorithms", "science", "computer-vision"]
+keywords = ["ai", "ml"]
+
+[dependencies]
