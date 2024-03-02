@@ -11,5 +11,5 @@ categories = ["algorithms", "science", "computer-vision"]
 keywords = ["ai", "ml"]
 
 [dependencies]
-nalgebra = "0.32.4"
-image = "0.24.9"
+nalgebra = "^0.32.4"
+image = "^0.24.9"

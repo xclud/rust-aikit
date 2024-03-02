@@ -31,6 +31,7 @@ fn main() {
 
     matrix = matrix.append_translation(&Vector2::new(-100f32, 0f32));
 
-    warp_into(input, matrix, &mut output);
+    warp_into(&input, matrix, &mut output);
+
     _ = to_rgb8(output).save("saved_t1.jpg");
 }
