@@ -12,4 +12,4 @@ keywords = ["ai", "ml"]
 
 [dependencies]
 nalgebra = "^0.34.0"
-image = "^0.25.6"
+image = { version = "^0.25.6", default-features = false }
